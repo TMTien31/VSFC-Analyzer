@@ -1,0 +1,21 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# Model artifacts
+*.safetensors
+*.pth
+model/
+
+# Environment / secrets
+.env
+
+# Transformers / HF cache
+.cache/
+huggingface/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System
+.DS_Store
