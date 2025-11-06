@@ -84,15 +84,3 @@ VSFC-Analyzer/
 ![App Interface](screenshots/app-interface.png)
 ![Sentiment Distribution](screenshots/sentiment-distribution.png)
 ![Topic-Sentiment Heatmap](screenshots/heatmap.png)
-
-## Contribution
-
-This project is intended for personal learning and demonstration purposes. Pull requests for improvements or fixes are welcome.
-
-## Contact
-
-For inquiries or feedback, please contact: [tmt31032005@gmail.com](mailto:tmt31032005@gmail.com)
-
----
-
-*Thank you for exploring the VSFC Analyzer project!*
