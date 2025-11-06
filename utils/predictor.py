@@ -4,13 +4,9 @@ import numpy as np
 
 class BasePredictor:
     def __init__(self, model_repo, device=None):
-        """
-        model_repo: str, tên repo model trên Hugging Face Hub, ví dụ "username/model-name"
-        device: "cuda" hoặc "cpu" hoặc None (auto chọn)
-        """
         self.device = device if device else ("cuda" if torch.cuda.is_available() else "cpu")
         
-        # Load tokenizer & model trực tiếp từ Hugging Face Hub
+        # Load tokenizer & model 
         self.tokenizer = AutoTokenizer.from_pretrained(model_repo)
         self.model = AutoModelForSequenceClassification.from_pretrained(model_repo)
         
